@@ -41,7 +41,7 @@ void insertAtBeginning(Contact*& head, string name, string phone) {
     Contact *newHead = new Contact(name, phone);
     newHead->next = head;
     head = newHead;
-    cout<< "Contact added." << endl;
+    
 }
 
 void insertAtEnd(Contact*& head, string name, string phone) {
