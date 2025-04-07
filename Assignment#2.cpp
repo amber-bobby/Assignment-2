@@ -51,7 +51,7 @@ void insertAtEnd(Contact*& head, string name, string phone) {
     if (head == nullptr) {
         head = newContact;
         return;
-        cout<< "Contact added at end." << endl;
+        
 
     }
 
